@@ -3,15 +3,40 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    
-    <!-- Background circle -->
+
+    <!-- 粉色圆形背景 -->
     <path
-        android:fillColor="@color/purple_500"
-        android:pathData="M54,54m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0" />
-    
-    <!-- Letter "M" for MyApplication -->
+        android:fillColor="#F48FB1"
+        android:pathData="M54,4A50,50 0,1 0,54,104A50,50 0,1 0,54,4" />
+
+    <!-- 白色信封 -->
     <path
-        android:fillColor="@color/white"
-        android:pathData="M35,70L35,38L42,38L54,55L66,38L73,38L73,70L66,70L66,50L54,67L42,50L42,70Z" />
-    
+        android:fillColor="#FFFFFF"
+        android:pathData="M25,35
+            L83,35
+            L83,73
+            L25,73
+            Z" />
+
+    <!-- 信封内页/折线 -->
+    <path
+        android:fillColor="#F06292"
+        android:pathData="M27,37
+            L54,58
+            L81,37
+            L81,43
+            L54,64
+            L27,43
+            Z" />
+
+    <!-- 爱心 -->
+    <path
+        android:fillColor="#F06292"
+        android:pathData="M54,47
+            C48,39 37,42 37,50
+            C37,57 45,62 54,69
+            C63,62 71,57 71,50
+            C71,42 60,39 54,47
+            Z" />
+
 </vector>
